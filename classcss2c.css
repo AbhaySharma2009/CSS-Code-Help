@@ -1,0 +1,19 @@
+.box{
+    background-color: aqua;
+
+     /* 2D transformation */
+    /* translatea along x axis and y axis :- transform:translate(x axis , y axis) */
+    transform: translate(100px , 0px);
+
+    /* transform:roatate(degree) */
+    transform: rotate(-45deg);
+
+    /* scale along (horizontal , vertical) */
+    /* or scaleX() and scaleY() also can be used */
+    /* transform: scale(2,1); */
+
+
+    /* skewX() and skewY() also can be used */
+    /* skew mean tilt the text with the given degree */
+    transform: skew(20deg);
+}

@@ -1,0 +1,27 @@
+.box{
+
+    /* the box size adjust their own acc to context at max 100px */
+    /* if conext size is bigger than 100px their it will overflow */
+    max-height: 100px;
+    border:1px solid black;
+
+    /* by this overflow:scroll we can scroll the text within the box  */
+    /* overflow properties are:- visible , hideen , scroll , auto  */
+    overflow:scrol;
+}
+
+.hello{
+    margin: 10px;
+
+    /* in min-height the block will autmaticalyy adjust until the context fit inside the block */
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+#divi{
+    height: 100px;
+    max-width: 100px;
+    border: 10px solid black;
+    /* agar hum over flow auto ni dalnege tho max-width par conetxt block sai bahar nikal jayega */
+    overflow:auto;
+}

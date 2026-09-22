@@ -1,0 +1,16 @@
+h1{
+
+    /* first 3px=horizontal , second 3px = vertical, third 3px= blur */
+   text-shadow: 3px 3px 3px red; 
+
+   /* double shadow */
+   text-shadow: 3px 3px 3px red , 5px 5px 5px green;
+}
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+
+    /* by giving -ve value we can chaneg the direction not shadow directn */
+    box-shadow:-10px -10px 10px orange , 15px 15px 15px brown;
+}

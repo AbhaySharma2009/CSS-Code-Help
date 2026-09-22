@@ -1,0 +1,35 @@
+p{
+    position: static;
+}
+
+div{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+#box3{
+
+    /* iski actual position 0px rahegi . uske realtive hi changes honge */
+    position: relative;
+    top: 100px;
+    left:50px;
+}
+
+#box1{
+    /* isko likhne sai wo wala class ka section fixed ho jayega  */
+    position: fixed;
+}
+.wrapper{
+    height:1000px;
+    width: 1000px;
+    background-color: greenyellow;
+
+}
+#box4{
+    /* it toggles bewtten rlative and fixed  */
+    position: sticky;
+    /* ismai apan ko cond dena jarui hai  */
+    top: 0px;
+}

@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.translated{
+    /* perspective mean allow the third axisof trasnlate */
+    /* traslateZ axis mean in front of scrren  */
+    /* here the valeu of Z IS -ve so it is back fornt of screen */
+    transform: perspective(10px) translateZ(-10px)
+}
+
+.scaled{
+    margin-left: 200px;
+    transform: perspective(350px) scaleZ(2) rotateY(30deg);
+}
