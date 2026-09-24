@@ -1,0 +1,55 @@
+.container{
+    height:400px;
+    border: 2px solid black;
+
+    /* flex=elements arranged in vertical */
+    display: flex;
+
+    /* in this the intial arrnaged happens  */
+    /* row-reversed, coloum-reversed, coloum , row this exist */
+    flex-direction: row-reverse;
+
+    /* inspect akrne apr viewport chota karenge toh wo apne aap adjust ho jayegi */
+    flex-wrap: wrap;   /*deafult value=non-wrap */
+
+
+    /* main starting sai arrnage hoti hai  */
+    justify-content: flex-start;
+
+
+    /* main end sai reversed hogi  */
+    justify-content: flex-end;
+
+    /* main middle mai arrange hogi  */
+    justify-content: center ;
+
+    /* equal spacess will comes between every block but "first left" and "last right" donot have eqal space*/
+    justify-content: space-around;
+
+
+    /* equal spacess will comes betwen every  all block  */
+    justify-content: space-evenly;
+
+
+    /* eqal space be there between two block expect first and last conatiner */
+    justify-content: space-between;
+
+
+    
+    /* align items=it takes place on the behalf of verticla */
+    align-items: flex-start;
+
+    align-items: flex-end;
+
+    align-items: center;
+
+
+    /* align-items bydeafult value =stretch */
+    align-items: stretch;
+
+}
+.box{
+    background-color: aqua;
+    border: 1px solid brown;
+    width:50px;
+}
